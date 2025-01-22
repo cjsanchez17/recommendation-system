@@ -20,10 +20,9 @@ tmp/
 .env
 
 # Ignore large model files (adjust as needed)
-model_files/*.bin
-model_files/*.pt
-model_files/*.index
-model_files/*.npy
+# model_files/*.bin
+# model_files/*.pt
+# model_files/*.index
+# model_files/*.npy
 
-# Ignore deployment files (local testing)
-start.sh
+
