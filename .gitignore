@@ -1,5 +1,6 @@
 # Ignore Python cache files
 __pycache__/
+**/__pycache__/
 *.pyc
 *.pyo
 *.pyd
@@ -7,12 +8,14 @@ __pycache__/
 # Ignore virtual environments
 venv/
 env/
+.venv/
 
 # Ignore IDE/editor specific files
 .vscode/
 .idea/
 *.swp
 .DS_Store
+Thumbs.db
 
 # Ignore log files and temp data
 *.log
@@ -20,9 +23,15 @@ tmp/
 .env
 
 # Ignore large model files (adjust as needed)
-# model_files/*.bin
-# model_files/*.pt
-# model_files/*.index
-# model_files/*.npy
+model_files/*.bin
+model_files/*.pt
+model_files/*.index
+model_files/*.npy
+
+# Ignore Python package files
+*.egg-info/
+dist/
+build/
+
 
 
